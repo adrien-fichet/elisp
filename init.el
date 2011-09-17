@@ -10,9 +10,9 @@
 (set-language-environment "UTF-8")
 
 ;; Configuration de l'apparence
-(set-background-color "#e0ebef")
-(set-foreground-color "gray0")
-(set-cursor-color "gray70")
+(set-background-color "black")
+(set-foreground-color "gray80")
+(set-cursor-color "gray80")
 
 ;; Indentation automatique de 4 espaces
 (setq standard-indent 4)
