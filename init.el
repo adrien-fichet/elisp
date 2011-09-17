@@ -14,6 +14,10 @@
 (set-foreground-color "gray80")
 (set-cursor-color "gray80")
 
+;; Fenêtre transparente
+(set-frame-parameter (selected-frame) 'alpha '(90 50))
+(add-to-list 'default-frame-alist '(alpha 90 50))
+
 ;; Indentation automatique de 4 espaces
 (setq standard-indent 4)
 (setq-default indent-tabs-mode nil)
