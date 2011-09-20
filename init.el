@@ -187,4 +187,3 @@
                            (progn (setq old-fullscreen current-value)
                                   'fullboth)))))
 (global-set-key [f11] 'toggle-fullscreen)
-(toggle-fullscreen)
