@@ -92,19 +92,19 @@
 (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
 
 ;; AucTeX
-(load "auctex.el" nil t t)
-(setq TeX-PDF-mode t)
-(add-hook 'doc-view-mode-hook 'auto-revert-mode)
+;; (load "auctex.el" nil t t)
+;; (setq TeX-PDF-mode t)
+;; (add-hook 'doc-view-mode-hook 'auto-revert-mode)
 
 ;; Pymacs
-(autoload 'pymacs-apply "pymacs")
-(autoload 'pymacs-call "pymacs")
-(autoload 'pymacs-eval "pymacs" nil t)
-(autoload 'pymacs-exec "pymacs" nil t)
-(autoload 'pymacs-load "pymacs" nil t)
+;; (autoload 'pymacs-apply "pymacs")
+;; (autoload 'pymacs-call "pymacs")
+;; (autoload 'pymacs-eval "pymacs" nil t)
+;; (autoload 'pymacs-exec "pymacs" nil t)
+;; (autoload 'pymacs-load "pymacs" nil t)
 
 ;; Ropemacs
-(pymacs-load "ropemacs" "rope-")
+;; (pymacs-load "ropemacs" "rope-")
 
 ;; Web Browser intégré (w3m)
 (load "w3m-el-snapshot")
