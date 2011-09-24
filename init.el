@@ -93,8 +93,8 @@
 
 ;; AucTeX
 ;; (load "auctex.el" nil t t)
-;; (setq TeX-PDF-mode t)
-;; (add-hook 'doc-view-mode-hook 'auto-revert-mode)
+(setq TeX-PDF-mode t)
+(add-hook 'doc-view-mode-hook 'auto-revert-mode)
 
 ;; Pymacs
 ;; (autoload 'pymacs-apply "pymacs")
