@@ -187,3 +187,6 @@
                            (progn (setq old-fullscreen current-value)
                                   'fullboth)))))
 (global-set-key [f11] 'toggle-fullscreen)
+
+;; Mise en commentaire sur plusieurs lignes
+(setq comment-style 'multi-line)
