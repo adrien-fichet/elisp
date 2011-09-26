@@ -92,9 +92,9 @@
 (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
 
 ;; AucTeX
-(load "auctex.el" nil t t)
-(setq TeX-PDF-mode t)
-(add-hook 'doc-view-mode-hook 'auto-revert-mode)
+;; (load "auctex.el" nil t t)
+;; (setq TeX-PDF-mode t)
+;; (add-hook 'doc-view-mode-hook 'auto-revert-mode)
 
 ;; Pymacs
 ;; (autoload 'pymacs-apply "pymacs")
