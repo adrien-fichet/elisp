@@ -190,3 +190,6 @@
 
 ;; Mise en commentaire sur plusieurs lignes
 (setq comment-style 'multi-line)
+
+;; Interpréteur Scheme
+(setq scheme-program-name "mzscheme")
