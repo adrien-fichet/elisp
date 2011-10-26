@@ -10,7 +10,7 @@
 (set-language-environment "UTF-8")
 
 ;; Configuration de l'apparence
-;; (set-background-color "black")
+(set-background-color "black")
 (set-foreground-color "gray80")
 (set-cursor-color "gray80")
 
