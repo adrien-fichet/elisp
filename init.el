@@ -10,13 +10,13 @@
 (set-language-environment "UTF-8")
 
 ;; Configuration de l'apparence
-(set-background-color "black")
+;; (set-background-color "black")
 (set-foreground-color "gray80")
 (set-cursor-color "gray80")
 
 ;; Fenêtre transparente
-(set-frame-parameter (selected-frame) 'alpha '(90 50))
-(add-to-list 'default-frame-alist '(alpha 90 50))
+(set-frame-parameter (selected-frame) 'alpha '(90 90))
+(add-to-list 'default-frame-alist '(alpha 90 90))
 
 ;; Indentation automatique de 4 espaces
 (setq standard-indent 4)
