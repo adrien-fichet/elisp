@@ -13,6 +13,7 @@
 (set-background-color "black")
 (set-foreground-color "gray80")
 (set-cursor-color "gray80")
+(set-default-font "-xos4-Terminus-normal-normal-normal-*-16-*-*-*-c-80-iso10646-1")
 
 ;; Fenêtre transparente
 (set-frame-parameter (selected-frame) 'alpha '(90 90))
