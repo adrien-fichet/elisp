@@ -169,9 +169,9 @@
 (setq debug-on-error nil)
 
 ;; Auto complétion
-(add-to-list 'load-path "~/elisp/auto-complete-1.3.1")
+(add-to-list 'load-path "~/elisp/")
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/elisp/auto-complete-1.3.1/dict")
+(add-to-list 'ac-dictionary-directories "~/elisp/ac-dict")
 (ac-config-default)
 
 ;; Personnalisation des buffers au démarrage
