@@ -24,6 +24,7 @@
 (setq-default indent-tabs-mode nil)
 (setq-default c-basic-offset 4)
 (global-set-key (kbd "RET") 'newline-and-indent)
+(custom-set-variables '(tab-stop-list (quote (4 8))))
 
 ;; Scrolling ligne par ligne
 (setq scroll-step 1)
